@@ -1,9 +1,8 @@
 --  For more options, you can see `:help option-list`
-
 vim.opt.number = true
 vim.opt.relativenumber = true
 
--- Enable mouse mode, can be useful for resizing splits for example!
+-- Enable mouse
 vim.opt.mouse = 'a'
 
 -- Don't show the mode, since it's already in the status line
