@@ -12,6 +12,8 @@ return { -- Autoformat
       desc = '[F]ormat buffer',
     },
   },
+  ---@module "conform"
+  ---@type conform.setupOpts
   opts = {
     notify_on_error = true,
     format_on_save = function(bufnr)
@@ -34,7 +36,9 @@ return { -- Autoformat
       lua = { 'stylua' },
       python = { 'isort', 'black' },
       javascript = { 'prettierd' },
+      javascriptreact = { 'prettierd' },
       typescript = { 'prettierd' },
+      typescriptreact = { 'prettierd' },
 
       -- You can use 'stop_after_first' to run the first available formatter from the list
       -- javascript = { "prettierd", "prettier", stop_after_first = true },
