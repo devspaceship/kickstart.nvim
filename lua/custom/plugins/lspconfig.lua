@@ -91,9 +91,6 @@ return {
         mason = false,
         cmd = { vim.fn.expand '~/.rbenv/shims/ruby-lsp' },
       },
-      -- ruby_lsp = {
-      --   cmd = { 'bundle', 'exec', 'ruby-lsp' },
-      -- },
       rust_analyzer = {},
     }
 
